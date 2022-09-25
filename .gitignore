@@ -74,3 +74,4 @@ crashlytics-build.properties
 /AssetBundles/
 */AssetBundleResources/
 */AssetBundleResources.meta
+.envrc
