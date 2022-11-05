@@ -1,11 +1,19 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "2.3.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.teach310.assetbundlehub": {
       "version": "file:com.teach310.assetbundlehub",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.scriptablebuildpipeline": "1.20.2"
+        "com.unity.scriptablebuildpipeline": "1.20.2",
+        "com.cysharp.unitask": "2.3.1"
       }
     },
     "com.unity.collab-proxy": {
