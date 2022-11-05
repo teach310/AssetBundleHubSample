@@ -23,3 +23,8 @@ unity-build-ab-standalone:
 	-executeMethod AssetBundleBuilder.BatchBuild \
 	-outputFolder $(AB_OUTPUT_FOLDER) \
 	-target $(AB_TARGET)
+
+.PHONY: rsync-to-docs
+#: AssetBundlesフォルダをdocs以下にコピー
+rsync-to-docs:
+	rsync -ahvnc --exclude='*/buildlogtep.json' ./AssetBundles ./docs
