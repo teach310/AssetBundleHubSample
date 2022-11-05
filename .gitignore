@@ -72,7 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 .vscode/
 /AssetBundles/
-*/AssetBundleResources/
-*/AssetBundleResources.meta
 .envrc
 Test/
