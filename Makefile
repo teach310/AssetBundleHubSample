@@ -28,3 +28,7 @@ unity-build-ab-standalone:
 #: AssetBundlesフォルダをdocs以下にコピー
 rsync-to-docs:
 	rsync -ahvnc --exclude='*/buildlogtep.json' ./AssetBundles ./docs
+
+.PHONY: format
+format:
+	dotnet format AssetBundleHubSample.sln
