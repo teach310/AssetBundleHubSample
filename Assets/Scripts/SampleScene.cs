@@ -128,6 +128,8 @@ namespace AssetBundleHubSample
             assetContainer = null;
             homeScreen.gameObject.SetActive(false);
             titleScreen.SetActive(true);
+            Resources.UnloadUnusedAssets();
+            GC.Collect();
             SetSceneState(SceneState.Title);
         }
 
